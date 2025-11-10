@@ -21,18 +21,18 @@
 
 ### Блок-схема программы  
 
-![schema_main.png](.\images_for_report\schema_main.png)
+![schema_main.png](./images_for_report/schema_main.png)
 
 **Детализация процесса решения симплекс-методом вспомогательной и основной задачи на уровне функции two_phase_solve**  
 
-![schema_two_phase_solve.png](.\images_for_report\schema_two_phase_solve.png)
+![schema_two_phase_solve.png](./images_for_report/schema_two_phase_solve.png)
 
 ## 2. Инструкция по установке
 
 **Требования:** Python 3.8 или новее.
 
 
-Шаг 1 — склонировать этот репозиторий в рабочую папку
+**Шаг 1 — склонировать этот репозиторий в рабочую папку**
 
 ```
 git clone https://github.com/KosGeny/ITMO_Optimization_Methods
@@ -40,7 +40,7 @@ git clone https://github.com/KosGeny/ITMO_Optimization_Methods
 
 И перейти в эту папку.
 
-Шаг 2 — (опционально) создать виртуальное окружение
+**Шаг 2 — (опционально) создать виртуальное окружение**
 
 Linux / macOS:
 
@@ -56,14 +56,14 @@ python -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
 
-Шаг 3 — убедиться в версии Python
+**Шаг 3 — убедиться в версии Python**
 
 ```
 python --version
 ```
 
 
-Шаг 4 — запустить программу
+**Шаг 4 — запустить программу**
 
 Режимы:
 
@@ -103,22 +103,22 @@ x_2 + x_4 >= 3
 ### Примеры запусков
 **Решение ЗЛП**  
 
-![result-1.png](.\images_for_report\result-1.png)
+![result-1.png](./images_for_report/result-1.png)
 
 **Решение двойственной задачи**  
 
-![result-2.png](.\images_for_report\result-2.png)
+![result-2.png](./images_for_report/result-2.png)
 
 Оба решения являются верными.
 
 ### Сравнение результата с MS Excel
 В MS Excel было введено условие исходной задачи. Для расчёта использована надстройка "Поиск решения".
 
-![find_solution_excel.png](.\images_for_report\find_solution_excel.png)
+![find_solution_excel.png](./images_for_report/find_solution_excel.png)
 
 В результате были получены те же значения, что и ранее давала программа. Значит, программа работает корректно.
 
-![result_excel.png](.\images_for_report\result_excel.png)
+![result_excel.png](./images_for_report/result_excel.png)
 
 
 ## 4. Рефлективный вывод
